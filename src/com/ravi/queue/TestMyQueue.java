@@ -1,4 +1,4 @@
-package com.test;
+package com.ravi.queue;
 
 public class TestMyQueue {
     public static void main(String[] args) {
