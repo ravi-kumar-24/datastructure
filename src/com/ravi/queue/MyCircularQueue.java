@@ -52,6 +52,7 @@ public class MyCircularQueue<T> {
 
     public T peek(){
         if(size() ==0){
+
             throw new NoSuchElementException();
         }
         return (T) elements[front];
