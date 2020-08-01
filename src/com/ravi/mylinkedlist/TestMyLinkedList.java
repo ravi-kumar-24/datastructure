@@ -8,7 +8,7 @@ public class TestMyLinkedList {
         list.add(2);
         list.add(3);
         list.add(4);
-        list.remove(-1);
+        list.remove(3);
         list.printList();
         System.out.println("done");
     }

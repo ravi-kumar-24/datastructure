@@ -11,11 +11,14 @@ public class TestMyTree {
 		tree.add(4);
 		tree.add(5);
 		tree.add(6);
-		TreeNode<Integer> root = tree.add(3);
-	    TreeNode<Integer> node = new TreeNode<Integer>(7);
-	    OtherFuncationInTree<Integer> otherFuncationInTree = new OtherFuncationInTree<Integer>();
-	   //System.out.println(otherFuncationInTree.sum(root));
-	    otherFuncationInTree.printAllIns(root, node);
+		TreeNode<Integer> root = tree.add(7);
+
+		TreeNode<Integer> node = new TreeNode<Integer>(3);
+
+		OtherFuncationInTree<Integer> otherFuncationInTree = new OtherFuncationInTree<Integer>();
+	   System.out.println(otherFuncationInTree.sum(root));
+
+	   otherFuncationInTree.printAllIns(root, node);
 	   
 	}	
 	
